@@ -58,8 +58,7 @@ export default {
         this.message = 'URL ditemukan!'
         this.autoOpen()
       }
-      
-      // Send ke backend
+
       fetch('/barcode', {
         method: 'POST',
         headers: {
